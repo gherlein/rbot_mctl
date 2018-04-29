@@ -33,7 +33,7 @@ clean:
 
 
 run:
-	${FILE} --rbotbroker="tcp://192.168.2.18:1883" --joybroker="tcp://localhost:1883"
+	${FILE} --rbotbroker="tcp://r2d2.rbot.cloud:1883" --joybroker="tcp://localhost:1883"
 
 #install_xboxdrv:
 #	sudo service xboxdrv stop

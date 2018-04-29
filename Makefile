@@ -31,6 +31,10 @@ clean:
 	-rm -f ${FILE}
 	-rm -f *~
 
+
+run:
+	${FILE} --rbotbroker="tcp://192.168.2.18:1883" --joybroker="tcp://localhost:1883"
+
 #install_xboxdrv:
 #	sudo service xboxdrv stop
 #	sudo cp xboxdrv.service /lib/systemd/system/
